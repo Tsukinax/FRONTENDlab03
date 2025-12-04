@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add CSS of <hr>  3 points */
+/* "width 10%, dotted border style" */
+hr {
+    width: 10%;
+    border-style: dotted;
+    border-width: 0;
+    border-top: 5px dotted orange;
+}
+
+#header {
+    display: grid;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    
+    /* Add more properties  2 points */
+    /* "background image, position right center" */
+    background-image: url('../img/hand-painted-watercolor-background-with-sky-clouds-shape.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* "font color white, text shadow with black 2px 2px 8px" */
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.item {
+    width: 50%;
+    margin: 100px auto;
+    
+    /* Add more properties 2 points */
+    /* "text alignment left" */
+    text-align: left;
+    
+    /* "line height 2" */
+    line-height: 2;
+    
+    /* Fix for floating images */
+    overflow: auto;
+}
+
+/* Add CSS of class img-ski and img-beach 2 points*/
+.img-ski {
+    /* "image float left" */
+    float: left;
+    margin-right: 20px;
+}
+
+.img-beach {
+    /* "image float right" */
+    float: right;
+    margin-left: 20px;
+}
+
+#footer {
+    padding: 20px;
+    /* Add more properties 1 points */
+    /* "background color #A9A9A9" */
+    background-color: #A9A9A9;
+    color: white;
+}
